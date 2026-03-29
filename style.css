@@ -171,3 +171,48 @@ button:hover {
     background: green;
     color: white;
 }
+
+/* Work container */
+.work-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Work card */
+.work-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    position: relative;
+}
+
+/* Urgent */
+.urgent {
+    border-left: 5px solid red;
+}
+
+/* Delayed */
+.delayed {
+    border-left: 5px solid orange;
+}
+
+/* Badge */
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 8px;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.urgent-badge {
+    background: red;
+}
+
+.delay-badge {
+    background: orange;
+}
