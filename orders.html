@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Orders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>CarCare</h2>
+            <ul>
+                <li>Dashboard</li>
+                <li>Orders</li>
+                <li>Pending Works</li>
+                <li>Services</li>
+                <li>Inventory</li>
+                <li>Finance</li>
+                <li>Logout</li>
+            </ul>
+        </div>
+
+        <!-- Main -->
+        <div class="main">
+
+            <div class="header">
+                <h1>Orders</h1>
+            </div>
+
+            <!-- Search + Filter -->
+            <div class="top-bar">
+                <input type="text" placeholder="Search Orders...">
+
+                <select>
+                    <option>All</option>
+                    <option>Pending</option>
+                    <option>In Progress</option>
+                    <option>Completed</option>
+                </select>
+            </div>
+
+            <!-- Orders Table -->
+            <div class="table-section">
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Customer</th>
+                        <th>Service</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+
+                    <tr>
+                        <td>#101</td>
+                        <td>Rahul</td>
+                        <td>Car Wash</td>
+                        <td><span class="status pending">Pending</span></td>
+                        <td>
+                            <button class="btn start">Start</button>
+                            <button class="btn complete">Complete</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>#102</td>
+                        <td>Ajay</td>
+                        <td>Ceramic Coating</td>
+                        <td><span class="status progress">In Progress</span></td>
+                        <td>
+                            <button class="btn complete">Complete</button>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

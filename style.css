@@ -118,3 +118,56 @@ button:hover {
     border-radius: 5px;
     font-weight: bold;
 }
+
+/* Top bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.top-bar input {
+    width: 60%;
+    padding: 10px;
+}
+
+.top-bar select {
+    padding: 10px;
+}
+
+/* Status badges */
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.pending {
+    background: orange;
+}
+
+.progress {
+    background: blue;
+}
+
+.completed {
+    background: green;
+}
+
+/* Buttons */
+.btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start {
+    background: #2563eb;
+    color: white;
+}
+
+.complete {
+    background: green;
+    color: white;
+}
