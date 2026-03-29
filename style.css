@@ -216,3 +216,16 @@ button:hover {
 .delay-badge {
     background: orange;
 }
+
+/* Finance colors */
+.income {
+    border-left: 5px solid green;
+}
+
+.expense {
+    border-left: 5px solid red;
+}
+
+.profit {
+    border-left: 5px solid blue;
+}
