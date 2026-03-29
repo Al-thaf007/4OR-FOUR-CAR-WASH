@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>CarCare</h2>
+            <ul>
+                <li>Dashboard</li>
+                <li>Orders</li>
+                <li>Pending Works</li>
+                <li>Services</li>
+                <li>Inventory</li>
+                <li>Finance</li>
+                <li>Logout</li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main">
+
+            <div class="header">
+                <h1>Book Service</h1>
+            </div>
+
+            <div class="form-container">
+
+                <form>
+
+                    <!-- Customer Info -->
+                    <h3>Customer Details</h3>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" placeholder="Phone Number" required>
+
+                    <!-- Vehicle Info -->
+                    <h3>Vehicle Details</h3>
+                    <input type="text" placeholder="Car Model" required>
+
+                    <select>
+                        <option>Select Vehicle Type</option>
+                        <option>Hatchback</option>
+                        <option>Sedan</option>
+                        <option>SUV</option>
+                    </select>
+
+                    <!-- Service -->
+                    <h3>Select Service</h3>
+                    <select>
+                        <option>Car Wash</option>
+                        <option>Ceramic Coating</option>
+                        <option>Car Care</option>
+                        <option>Car Valet</option>
+                    </select>
+
+                    <!-- Add-ons -->
+                    <h3>Add-ons</h3>
+                    <label><input type="checkbox"> Interior Cleaning</label><br>
+                    <label><input type="checkbox"> Wax Polish</label><br>
+
+                    <!-- Date -->
+                    <h3>Date & Time</h3>
+                    <input type="date">
+                    <input type="time">
+
+                    <!-- Estimate -->
+                    <h3>Estimated Price</h3>
+                    <div class="estimate-box">₹1500</div>
+
+                    <!-- Button -->
+                    <button type="submit">Book Now</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

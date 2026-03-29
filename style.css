@@ -77,3 +77,44 @@ td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form h3 {
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.estimate-box {
+    background: #e0f2fe;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
