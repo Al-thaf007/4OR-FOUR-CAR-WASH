@@ -219,3 +219,77 @@ td {
 .profit {
     border-left: 5px solid #3b82f6;
 }
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    /* Layout */
+    .container {
+        flex-direction: column;
+    }
+
+    /* Sidebar becomes top bar */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .sidebar h2 {
+        display: none;
+    }
+
+    .sidebar ul {
+        display: flex;
+        gap: 10px;
+    }
+
+    .sidebar li {
+        margin: 0;
+    }
+
+    .sidebar a {
+        padding: 10px;
+        white-space: nowrap;
+    }
+
+    /* Main */
+    .main {
+        padding: 15px;
+    }
+
+    /* Cards stack */
+    .cards {
+        flex-direction: column;
+    }
+
+    /* Work cards stack */
+    .work-container {
+        flex-direction: column;
+    }
+
+    .work-card {
+        width: 100%;
+    }
+
+    /* Form full width */
+    .form-container {
+        max-width: 100%;
+    }
+
+    /* Table scroll */
+    .table-section {
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 600px;
+    }
+
+    /* Buttons */
+    button {
+        font-size: 14px;
+    }
+}
